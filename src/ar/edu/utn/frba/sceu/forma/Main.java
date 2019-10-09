@@ -1,7 +1,5 @@
 package ar.edu.utn.frba.sceu.forma;
 
-import java.util.*;
-
 public class Main {
 
 	public static void main(String[] args) 
