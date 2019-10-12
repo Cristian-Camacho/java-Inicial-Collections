@@ -41,6 +41,9 @@ public class Main {
 		Queue<Integer> queu = new PriorityQueue<Integer>();
 		Stack<Integer> stac = new Stack<Integer>();
 		Set<Integer> listaUnica = new HashSet<Integer>();
+		List<Integer> listaInt = new ArrayList<Integer>();
+		
+		
 
 		@SuppressWarnings("resource")
 		Scanner in = new Scanner(System.in);
@@ -71,12 +74,6 @@ public class Main {
 		while(queu.size()> 0) {
 			System.out.println(queu.poll());
 			
-		}
-		
-		
-		
-
-
+		}	
 	}
-
 }
